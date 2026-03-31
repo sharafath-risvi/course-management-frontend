@@ -1,0 +1,105 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.editCourse{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(135deg,#e0f2fe,#f8fafc);
+  padding:20px;
+}
+
+.editCourse main{
+  width:100%;
+  max-width:450px;
+  background:white;
+  padding:35px 30px;
+  border-radius:20px;
+  box-shadow:0 12px 30px rgba(15,23,42,0.12);
+  border:1px solid #e2e8f0;
+}
+
+.editCourse h1{
+  text-align:center;
+  margin-bottom:28px;
+  color:#0f172a;
+  font-size:30px;
+  font-weight:700;
+}
+
+.editCourse form{
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+}
+
+.editCourse label{
+  display:block;
+  margin-bottom:8px;
+  font-size:15px;
+  font-weight:600;
+  color:#334155;
+}
+
+.editCourse input{
+  width:100%;
+  padding:13px 14px;
+  border:1px solid #cbd5e1;
+  border-radius:12px;
+  outline:none;
+  font-size:15px;
+  transition:0.3s ease;
+  background:#f8fafc;
+}
+
+.editCourse input:focus{
+  border-color:#2563eb;
+  box-shadow:0 0 0 4px rgba(37,99,235,0.12);
+  background:white;
+}
+
+.btnGroup{
+  display:flex;
+  gap:12px;
+  margin-top:10px;
+}
+
+.updateBtn{
+  flex:1;
+  background:linear-gradient(135deg,#10b981,#059669);
+  color:white;
+  border:none;
+  padding:13px;
+  border-radius:12px;
+  cursor:pointer;
+  font-size:15px;
+  font-weight:600;
+  transition:0.3s ease;
+}
+
+.updateBtn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 20px rgba(16,185,129,0.25);
+}
+
+.backBtn{
+  flex:1;
+  background:#e2e8f0;
+  color:#0f172a;
+  border:none;
+  padding:13px;
+  border-radius:12px;
+  cursor:pointer;
+  font-size:15px;
+  font-weight:600;
+  transition:0.3s ease;
+}
+
+.backBtn:hover{
+  background:#cbd5e1;
+}

@@ -1,0 +1,90 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.mainContainer{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#4facfe,#00f2fe);
+width:100%; 
+}
+
+.loginCard{
+width:350px;
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0px 10px 30px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+.loginCard h1{
+margin-bottom:10px;
+color:#333;
+}
+
+.subtitle{
+font-size:14px;
+color:gray;
+margin-bottom:25px;
+}
+
+.inputGroup{
+display:flex;
+flex-direction:column;
+text-align:left;
+margin-bottom:20px;
+}
+
+.inputGroup label{
+font-size:14px;
+margin-bottom:5px;
+color:#444;
+}
+
+.inputGroup input{
+padding:10px;
+border:1px solid #ccc;
+border-radius:6px;
+font-size:14px;
+outline:none;
+transition:0.3s;
+}
+
+.inputGroup input:focus{
+border-color:#4facfe;
+box-shadow:0px 0px 5px rgba(79,172,254,0.5);
+}
+
+.loginBtn{
+width:100%;
+padding:12px;
+border:none;
+background:#4facfe;
+color:white;
+font-size:16px;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.loginBtn:hover{
+background:#2b8ef7;
+}
+
+.signupText{
+margin-top:15px;
+font-size:14px;
+color:#555;
+}
+
+.signupText span{
+color:#4facfe;
+cursor:pointer;
+font-weight:bold;
+}
